@@ -150,7 +150,7 @@ const calculateEnergyUsageSimple = (profile: EnergyUsageProfile): number => {
  * 6. Return the sum
  */
 
-const calculateEnergySavings = (profile: EnergySavingsProfile) => {
+const calculateEnergySavings = (profile: EnergySavingsProfile): number => {
   validateInput_calculateEnergySavings(profile);
 
   //rules to identify the regions in the timeseries, ecapsulated in a callback
